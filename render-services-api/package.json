@@ -1,0 +1,16 @@
+{
+  "name": "render-services-api",
+  "version": "1.0.0",
+  "description": "Returns the list of services in my Render account",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
