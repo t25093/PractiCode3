@@ -34,6 +34,8 @@ app.UseSwaggerUI();
 
 // ===== 3. Routes =====
 
+app.MapGet("/", () => "Server is running. Go to /items");
+
 // 3.א שליפת כל המשימות
 app.MapGet("/items", async (ToDoDbContext db) =>
     await db.Items.ToListAsync());
